@@ -68,11 +68,11 @@ public:
 	// 线程池构造
 	ThreadPool(size_t threadCount = 8)
 		: initThreadSize_(threadCount)
-		, taskSize_(0)
-		, idleThreadSize_(0)
-		, curThreadSize_(0)
-		, taskQueMaxThreshHold_(TASK_MAX_THRESHHOLD)
 		, threadSizeThreshHold_(THREAD_MAX_THRESHHOLD)
+		, curThreadSize_(0)
+		, idleThreadSize_(0)
+		, taskSize_(0)
+		, taskQueMaxThreshHold_(TASK_MAX_THRESHHOLD)
 		, poolMode_(PoolMode::MODE_FIXED)
 		, isPoolRunning_(false)
 	{
