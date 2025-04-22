@@ -95,6 +95,12 @@ make
 * QPS 10000+
 
 ## TODO
-* config配置
 * 完善单元测试
 * 实现循环缓冲区
+
+## git
+```
+git add .
+git commit -m "update"
+git push origin main
+```
