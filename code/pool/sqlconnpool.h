@@ -6,6 +6,9 @@
 #include <queue>
 #include <mutex>
 #include <semaphore.h>
+#include <unordered_map>
+#include <fstream>
+#include <sstream>
 #include <thread>
 #include "../log/log.h"
 
@@ -17,13 +20,12 @@ public:
     void FreeConn(MYSQL * conn);
     int GetFreeConnCount();
 
-    void Init(const char* host, int port,
-              const char* user,const char* pwd, 
-              const char* dbName, int connSize);
+    int Init(const char* host);
     void ClosePool();
 
 private:
     SqlConnPool();
+    std::unordered_map<std::string, std::string> readConfig(const std::string& filePath);
     ~SqlConnPool();
 
     int MAX_CONN_;

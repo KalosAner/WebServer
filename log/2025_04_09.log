@@ -1,0 +1,15 @@
+2025-04-09 00:23:46.143949 [info] : ========== Server init ==========
+2025-04-09 00:23:46.144117 [info] : Port:1316, OpenLinger: false
+2025-04-09 00:23:46.144129 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-04-09 00:23:46.144136 [info] : LogSys level: 1
+2025-04-09 00:23:46.144142 [info] : srcDir: /home/kalosaner/learn/WebServer/resources/
+2025-04-09 00:23:46.144148 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2025-04-09 00:23:46.144154 [info] : ========== Server start ==========
+2025-04-09 00:24:07.651070 [info] : Client[18](127.0.0.1:8331) in, userCount:1
+2025-04-09 00:24:07.651323 [info] : Client[18] in!
+2025-04-09 00:24:07.835725 [info] : Client[24](127.0.0.1:10379) in, userCount:2
+2025-04-09 00:24:07.835767 [info] : Client[24] in!
+2025-04-09 00:24:07.843486 [info] : Client[26](127.0.0.1:10891) in, userCount:3
+2025-04-09 00:24:07.843539 [info] : Client[26] in!
+2025-04-09 00:24:07.843560 [info] : Client[27](127.0.0.1:14475) in, userCount:4
+2025-04-09 00:24:07.843575 [info] : Client[27] in!

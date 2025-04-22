@@ -11,6 +11,10 @@
 
 * 增加logsys,threadpool测试单元(todo: timer, sqlconnpool, httprequest, httpresponse) 
 
+## 新增
+* 实现数据库 config 配置，修改数据库配置无需编译
+
+
 ## 环境要求
 * Linux
 * C++14
@@ -66,6 +70,7 @@ CREATE TABLE user(
 INSERT INTO user(username, password) VALUES('name', 'password');
 ```
 
+执行必须在主目录下使用 `./bin/server` 不然可能会找不到数据库配置
 ```bash
 make
 ./bin/server

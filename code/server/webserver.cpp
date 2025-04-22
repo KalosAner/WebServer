@@ -4,9 +4,7 @@ using namespace std;
 
 WebServer::WebServer(
             int port, int trigMode, int timeoutMS, bool OptLinger,
-            int sqlPort, const char* sqlUser, const  char* sqlPwd,
-            const char* dbName, int connPoolNum, int threadNum,
-            bool openLog, int logLevel, int logQueSize):
+            int threadNum, bool openLog, int logLevel, int logQueSize):
             port_(port), openLinger_(OptLinger), timeoutMS_(timeoutMS), isClose_(false),
             timer_(new HeapTimer()), threadpool_(new ThreadPool(threadNum)), epoller_(new Epoller())
     {
@@ -17,7 +15,8 @@ WebServer::WebServer(
     
     HttpConn::userCount = 0;
     HttpConn::srcDir = srcDir_;
-    SqlConnPool::Instance()->Init("localhost", sqlPort, sqlUser, sqlPwd, dbName, connPoolNum);
+    Log::Instance()->init(logLevel, "./log", ".log", logQueSize);
+    int connPoolNum = SqlConnPool::Instance()->Init("localhost");
 
     // 初始化事件的模式
     InitEventMode_(trigMode);
@@ -25,7 +24,6 @@ WebServer::WebServer(
     if(!InitSocket_()) { isClose_ = true;}
 
     if(openLog) {
-        Log::Instance()->init(logLevel, "./log", ".log", logQueSize);
         if(isClose_) { LOG_ERROR("========== Server init error!=========="); }
         else {
             LOG_INFO("========== Server init ==========");
