@@ -38,3 +38,55 @@
 2025-04-22 05:43:51.661623 [info] : Client[28] quit!
 2025-04-22 05:43:51.661742 [info] : Client[28](127.0.0.1:30386) quit, UserCount:1
 2025-04-22 05:43:51.661812 [info] : Client[22] quit!
+2025-04-22 07:11:10.464598 [info] : Server port:1316
+2025-04-22 07:11:10.464660 [info] : ========== Server init ==========
+2025-04-22 07:11:10.464671 [info] : Port:1316, OpenLinger: false
+2025-04-22 07:11:10.464678 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-04-22 07:11:10.464685 [info] : LogSys level: 1
+2025-04-22 07:11:10.464691 [info] : srcDir: /home/kalosaner/learn/WebServer/resources/
+2025-04-22 07:11:10.464697 [info] : SqlConnPool num: 10, ThreadPool num: 6
+2025-04-22 07:11:10.464703 [info] : ========== Server start ==========
+2025-04-22 07:11:28.575573 [info] : Client[16](127.0.0.1:20117) in, userCount:1
+2025-04-22 07:11:28.577156 [info] : Client[16] in!
+2025-04-22 07:11:28.631534 [info] : Verify name:kalosaner pwd:admin
+2025-04-22 07:11:28.758519 [error]: RequestLine Error
+2025-04-22 07:11:28.760183 [info] : Client[16] quit!
+2025-04-22 07:11:28.760797 [info] : Client[16](127.0.0.1:20117) quit, UserCount:0
+2025-04-22 07:11:28.891360 [info] : Client[16](127.0.0.1:24213) in, userCount:1
+2025-04-22 07:11:28.891593 [info] : Client[16] in!
+2025-04-22 07:11:28.901890 [info] : Client[18](127.0.0.1:25749) in, userCount:2
+2025-04-22 07:11:28.901927 [info] : Client[18] in!
+2025-04-22 07:11:28.901966 [info] : Client[21](127.0.0.1:27285) in, userCount:3
+2025-04-22 07:11:28.901976 [info] : Client[21] in!
+2025-04-22 07:11:28.902362 [info] : Client[22](127.0.0.1:30869) in, userCount:4
+2025-04-22 07:11:28.902402 [info] : Client[22] in!
+2025-04-22 07:11:28.903341 [info] : Client[24](127.0.0.1:33941) in, userCount:5
+2025-04-22 07:11:28.903393 [info] : Client[24] in!
+2025-04-22 07:11:28.920309 [info] : Client[17](127.0.0.1:35989) in, userCount:6
+2025-04-22 07:11:28.920539 [info] : Client[17] in!
+2025-04-22 07:11:29.143531 [info] : Client[16] quit!
+2025-04-22 07:11:29.144025 [info] : Client[16](127.0.0.1:24213) quit, UserCount:5
+2025-04-22 07:11:34.038975 [info] : Client[17] quit!
+2025-04-22 07:12:39.585098 [info] : Server port:1316
+2025-04-22 07:12:39.585121 [info] : ========== Server init ==========
+2025-04-22 07:12:39.585125 [info] : Port:1316, OpenLinger: false
+2025-04-22 07:12:39.585128 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-04-22 07:12:39.585131 [info] : LogSys level: 1
+2025-04-22 07:12:39.585134 [info] : srcDir: /home/kalosaner/learn/WebServer/resources/
+2025-04-22 07:12:39.585137 [info] : SqlConnPool num: 10, ThreadPool num: 6
+2025-04-22 07:12:39.585139 [info] : ========== Server start ==========
+2025-04-22 07:12:45.976244 [info] : Client[16](127.0.0.1:5283) in, userCount:1
+2025-04-22 07:12:45.977704 [info] : Client[16] in!
+2025-04-22 07:12:45.990973 [info] : Verify name:kalosaner pwd:admin
+2025-04-22 07:12:45.997722 [error]: RequestLine Error
+2025-04-22 07:12:45.997922 [info] : Client[16] quit!
+2025-04-22 07:12:45.997956 [info] : Client[16](127.0.0.1:5283) quit, UserCount:0
+2025-04-22 07:12:46.028101 [info] : Client[16](127.0.0.1:6819) in, userCount:1
+2025-04-22 07:12:46.028237 [info] : Client[16] in!
+2025-04-22 07:12:46.029019 [info] : Client[17](127.0.0.1:7331) in, userCount:2
+2025-04-22 07:12:46.029060 [info] : Client[17] in!
+2025-04-22 07:12:46.030180 [info] : Client[18](127.0.0.1:8355) in, userCount:3
+2025-04-22 07:12:46.030264 [info] : Client[18] in!
+2025-04-22 07:12:46.030294 [info] : Client[21](127.0.0.1:8867) in, userCount:4
+2025-04-22 07:12:46.030316 [info] : Client[21] in!
+2025-04-22 07:12:46.032397 [info] : Client[22](127.0.0.1:9891) in, userCount:5
